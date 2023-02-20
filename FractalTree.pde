@@ -16,7 +16,7 @@ public void draw()
 } 
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {
-  strokeWeight(3);
+  strokeWeight(2);
   stroke((int)(Math.random()*155),255,255);
   double angle1 = angle + branchLength;
   double angle2 = angle - branchLength;
